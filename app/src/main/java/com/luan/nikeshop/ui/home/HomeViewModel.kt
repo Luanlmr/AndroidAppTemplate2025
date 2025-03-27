@@ -1,4 +1,4 @@
-package com.jailton.androidapptemplate.ui.home
+package com.luan.nikeshop.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

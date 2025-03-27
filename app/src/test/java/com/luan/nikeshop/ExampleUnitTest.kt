@@ -1,4 +1,4 @@
-package com.jailton.androidapptemplate
+package com.luan.nikeshop
 
 import org.junit.Test
 
