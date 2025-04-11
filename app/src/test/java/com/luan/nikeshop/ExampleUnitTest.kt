@@ -1,4 +1,4 @@
-package com.luan.androidapptemplate
+package com.luan.nikeshop
 
 import org.junit.Test
 

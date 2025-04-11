@@ -1,4 +1,4 @@
-package com.luan.androidapptemplate.ui.usuario
+package com.luan.nikeshop.ui.usuario
 
 import android.os.Bundle
 import android.util.Log
@@ -11,7 +11,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.UserProfileChangeRequest
 import com.google.firebase.database.DatabaseReference
-import com.luan.androidapptemplate.R
+import com.luan.nikeshop.R
 
 class CadastroUsuarioActivity  : AppCompatActivity() {
     private lateinit var textCadastroUsuarioTitle: TextView

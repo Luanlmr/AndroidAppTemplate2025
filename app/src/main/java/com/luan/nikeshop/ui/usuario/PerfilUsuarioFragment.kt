@@ -1,4 +1,4 @@
-package com.luan.androidapptemplate.ui.usuario
+package com.luan.nikeshop.ui.usuario
 
 import android.os.Bundle
 import android.util.Log
@@ -19,9 +19,9 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.luan.androidapptemplate.R
-import com.luan.androidapptemplate.baseclasses.Usuario
-import com.luan.androidapptemplate.databinding.FragmentPerfilUsuarioBinding
+import com.luan.nikeshop.R
+import com.luan.nikeshop.baseclasses.Usuario
+import com.luan.nikeshop.databinding.FragmentPerfilUsuarioBinding
 
 class PerfilUsuarioFragment : Fragment() {
 

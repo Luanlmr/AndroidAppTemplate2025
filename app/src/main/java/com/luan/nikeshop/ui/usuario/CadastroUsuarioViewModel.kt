@@ -1,4 +1,4 @@
-package com.luan.androidapptemplate.ui.usuario
+package com.luan.nikeshop.ui.usuario
 
 import androidx.lifecycle.ViewModel
 

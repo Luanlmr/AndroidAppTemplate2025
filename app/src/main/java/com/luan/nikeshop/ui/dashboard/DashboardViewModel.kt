@@ -1,4 +1,4 @@
-package com.luan.androidapptemplate.ui.dashboard
+package com.luan.nikeshop.ui.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

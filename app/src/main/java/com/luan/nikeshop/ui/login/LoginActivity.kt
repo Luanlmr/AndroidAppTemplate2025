@@ -1,4 +1,4 @@
-package com.luan.androidapptemplate.ui.login
+package com.luan.nikeshop.ui.login
 
 import android.content.Intent
 import android.os.Bundle
@@ -18,9 +18,9 @@ import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
-import com.luan.androidapptemplate.MainActivity
-import com.luan.androidapptemplate.R
-import com.luan.androidapptemplate.ui.usuario.CadastroUsuarioActivity
+import com.luan.nikeshop.MainActivity
+import com.luan.nikeshop.R
+import com.luan.nikeshop.ui.usuario.CadastroUsuarioActivity
 
 class LoginActivity : AppCompatActivity() {
 

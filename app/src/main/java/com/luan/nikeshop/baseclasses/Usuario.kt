@@ -1,4 +1,4 @@
-package com.luan.androidapptemplate.baseclasses
+package com.luan.nikeshop.baseclasses
 
 data class Usuario(
     var key: String? = null,
