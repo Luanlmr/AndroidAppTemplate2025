@@ -1,4 +1,4 @@
-package com.jailton.androidapptemplate.ui.usuario
+package com.luan.androidapptemplate.ui.usuario
 
 import android.os.Bundle
 import android.util.Log
@@ -19,9 +19,9 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.jailton.androidapptemplate.R
-import com.jailton.androidapptemplate.baseclasses.Usuario
-import com.jailton.androidapptemplate.databinding.FragmentPerfilUsuarioBinding
+import com.luan.androidapptemplate.R
+import com.luan.androidapptemplate.baseclasses.Usuario
+import com.luan.androidapptemplate.databinding.FragmentPerfilUsuarioBinding
 
 class PerfilUsuarioFragment : Fragment() {
 
