@@ -1,4 +1,4 @@
-package com.jailton.androidapptemplate.ui.home
+package com.luan.nikeshop.ui.home
 
 import android.content.Context
 import android.os.Bundle
@@ -18,9 +18,10 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.jailton.androidapptemplate.R
-import com.jailton.androidapptemplate.baseclasses.Item
-import com.jailton.androidapptemplate.databinding.FragmentHomeBinding
+import com.luan.nikeshop.R
+import com.luan.nikeshop.baseclasses.Item
+import androidx.lifecycle.ViewModelProvider
+import com.luan.nikeshop.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

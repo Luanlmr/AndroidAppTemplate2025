@@ -1,4 +1,4 @@
-package com.jailton.androidapptemplate.ui.dashboard
+package com.luan.nikeshop.ui.dashboard
 
 import android.app.Activity
 import android.content.Intent
@@ -16,17 +16,17 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.luan.nikeshop.databinding.FragmentDashboardBinding
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
-import com.jailton.androidapptemplate.R
-import com.jailton.androidapptemplate.baseclasses.Item
-import com.jailton.androidapptemplate.databinding.FragmentDashboardBinding
 import kotlinx.coroutines.CoroutineStart
-
+import com.luan.nikeshop.R
+import com.luan.nikeshop.baseclasses.Item
+import java.util.UUID
 
 class DashboardFragment : Fragment() {
 
