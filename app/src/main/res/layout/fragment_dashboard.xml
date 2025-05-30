@@ -45,23 +45,57 @@
 
 
     <EditText
-        android:id="@+id/enderecoItemEditText"
+        android:id="@+id/EnderecoItemEditText"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Endereço"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_select_image" />
 
 
+    <EditText
+        android:id="@+id/PrecoEditText"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Preço"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EnderecoItemEditText" />
+
+    <EditText
+        android:id="@+id/TamanhoEditText"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Tamanho"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/PrecoEditText" />
+
+    <EditText
+        android:id="@+id/CorEditText"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Cor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TamanhoEditText" />
+
     <Button
         android:id="@+id/salvarItemButton"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:text="Salvar"
-        app:layout_constraintTop_toBottomOf="@id/enderecoItemEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/CorEditText" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
